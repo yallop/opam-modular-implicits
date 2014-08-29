@@ -18,4 +18,4 @@ remove: [
              "%{bin}%/camlp4o.opt" "%{bin}%/camlp4oof.opt" "%{bin}%/camlp4r.opt"
   ]
 ]
-ocaml-version: [>="4.02.0" & <"4.03.0"]
+available: [ s witch = "4.02.0+modular-implicits" ]
